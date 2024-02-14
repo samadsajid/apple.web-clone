@@ -1,0 +1,224 @@
+* {
+  margin: 0%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.header-div {
+  align-items: center;
+  height: 40px;
+  background-color: #121212;
+}
+
+.header-div ul {
+  list-style: none;
+  font-size: 13px;
+  font-weight: 300;
+  margin: 0px;
+  padding: 0px;
+  width: 65%;
+  user-select: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-div ul li {
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  display: flex;
+}
+
+#bar {
+  display: none;
+}
+
+@media screen and (max-width: 1100px) {
+  .header-div ul {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .header-div ul {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header-div ul li {
+    display: none;
+    visibility: hidden;
+  }
+  #bar {
+    display: block;
+  }
+  .header-div ul {
+    justify-content: none;
+  }
+  .apple-logo {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .apple-logo {
+    width: 70%;
+  }
+}
+
+.hero-section {
+  background-image: url(./images/hero-section-img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 585px;
+  background-position: center;
+}
+
+.hero-section-content {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 40px;
+  display: flex;
+  display: inline-block;
+  align-items: flex-start;
+}
+
+.section-1 {
+  background-image: url(./images/image-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 580px;
+  width: 45%;
+  background-position: 0px -100px;
+  margin: auto;
+  margin-top: 10px;
+  padding-bottom: 15px;
+  background-position: center;
+}
+
+.section-2 {
+  background-image: url(./images/image-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 580px;
+  background-position: -620px 0px;
+  margin: auto;
+  margin-top: 10px;
+  padding-bottom: 40px;
+  background-position: center;
+}
+
+.section-3-main-div {
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.section-3-left-side {
+  background-image: url(./images/image-4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #f5f5f7;
+  height: 580px;
+  width: 49%;
+  margin-top: 10px;
+  padding-top: 70px;
+  background-position: center;
+}
+
+.section-3-right-side {
+  background-image: url(./images/image-5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  height: 580px;
+  width: 49%;
+  margin-top: 10px;
+  padding-top: 70px;
+  background-position: center;
+  line-height: 0;
+}
+
+.section-3-bottom-left-side {
+  background-image: url(./images/image-6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  height: 580px;
+  width: 49%;
+  margin-top: 10px;
+  padding-top: 50px;
+  background-position: center;
+}
+
+.section-3-bottom-right-side {
+  background-image: url(./images/image-7.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  height: 580px;
+  width: 49%;
+  margin-top: 10px;
+  padding-top: 50px;
+  background-position: center;
+}
+
+.section-3-third-row-left-side {
+  background-image: url(./images/image-8.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 580px;
+  width: 49%;
+  margin-top: 10px;
+  padding-top: 50px;
+  background-position: center;
+}
+
+.section-3-third-row-right-side {
+  background-image: url(./images/image-9.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  height: 580px;
+  width: 49%;
+  margin-top: 10px;
+  padding-top: 50px;
+  background-position: center;
+}
+
+@media screen and (max-width: 768px) {
+  .section-3-main-div {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .section-3-left-side {
+    width: 98%;
+    margin: auto;
+  }
+  .section-3-right-side {
+    width: 98%;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .section-3-bottom-left-side {
+    width: 98%;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .section-3-bottom-right-side {
+    width: 98%;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .section-3-third-row-left-side {
+    width: 98%;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .section-3-third-row-right-side {
+    width: 98%;
+    margin: auto;
+    margin-top: 10px;
+    background-position: 0px 0px;
+  }
+}
